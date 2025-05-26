@@ -1,0 +1,12 @@
+ def calcular_dias_de_vida(idade):
+    return idade * 365  # Não considera anos bissextos
+
+# Entrada de dados do usuário
+nome = input("Digite seu nome: ")
+idade = int(input("Digite sua idade: "))
+
+# Cálculo dos dias de vida
+dias_de_vida = calcular_dias_de_vida(idade)
+
+# Exibição do resultado
+print(f"{nome}, você já viveu aproximadamente {dias_de_vida} dias.")
